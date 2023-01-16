@@ -9,7 +9,7 @@ export default defineConfig({
     utools({
       external: 'uTools',
       preload: {
-        path: './src/preload.ts',
+        path: './src/preload.js',
         watch: true,
         name: 'window.preload'
       },
