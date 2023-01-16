@@ -14,7 +14,10 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: [
-    'react'
+    'react',
+    'import',
+    'n',
+    'promise'
   ],
   rules: {
   }
